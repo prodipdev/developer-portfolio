@@ -8,13 +8,27 @@
     color: #FD6E0A;
 }
 .btn-primary {
-    width: 700;
+    font-weight: 700;
     font-size: 20px;
     color: #FFFFFF;
     background-color: #FD6E0A;
     padding: 18px 35px;
     border-radius: 5px;
     border-style: none;
+}
+.btn-contact{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px;
+    border-color: #FD6E0A;
+    border-style: solid;
+    border-radius: 5px;
+    background: none;
+    margin-left: 30px;
+    color: #FD6E0A;
+}
+button i {
+    margin-right: 10px;
 }
 nav li .btn-primary {
     width: 150px;
@@ -23,7 +37,7 @@ nav li .btn-primary {
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 51px 226px;
+    padding: 51px 226px;
 }
 .nav-title {
     font-weight: 800;
@@ -73,7 +87,7 @@ nav li {
 }
 
 /* Main Section */
-main {
+main, footer .footer {
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -189,6 +203,30 @@ section {
     color: #757575;
 }
 .resume-btn {
-    margin-top: 50px;
+    margin-top: 20px;
     text-align: center;
+}
+
+/* Footer Style */
+footer {
+    background: #FFF8F3;
+    padding-bottom: 130px;
+    margin-top: 100px;
+}
+footer .footer {
+    display: flex;
+    gap: 100px;
+}
+footer .section-title {
+    text-align: left;
+}
+footer input, textarea {
+    display: block;
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+textarea{
+    resize: none;
 }
