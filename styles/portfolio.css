@@ -159,3 +159,36 @@ section {
     font-size: 16px;
     font-weight: 400;
 }
+
+/* Resume Styles */
+
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+.resume-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.item-head {
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.item-sub-head {
+    font-size: 20px;
+    font-weight: 600px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.item-details {
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 28px;
+    color: #757575;
+}
+.resume-btn {
+    margin-top: 50px;
+    text-align: center;
+}
