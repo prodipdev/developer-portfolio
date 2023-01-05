@@ -220,6 +220,9 @@ footer .footer {
 footer .section-title {
     text-align: left;
 }
+.connect-link a {
+    margin-left: 15px;
+}
 footer input, textarea {
     display: block;
     margin-bottom: 24px;
