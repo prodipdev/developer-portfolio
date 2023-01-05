@@ -16,6 +16,13 @@
     border-radius: 5px;
     border-style: none;
 }
+.btn-primary:hover {
+    background-color: #f36602;
+}
+.btn-primary:active {
+    background: #0000001e;
+    color: #FD6E0A;
+}
 .btn-contact{
     font-size: 20px;
     font-weight: 700;
