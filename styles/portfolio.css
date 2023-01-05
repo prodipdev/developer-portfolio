@@ -27,6 +27,17 @@
     margin-left: 30px;
     color: #FD6E0A;
 }
+.orange {
+    animation: orange 2s infinite;
+}
+@keyframes orange {
+  0%, 100% {
+    box-shadow: 0px 0px 10px 1px #FD6E0A, inset 0px 0px 10px rgba(255, 255, 255, 0.5); }
+
+    50% {
+      box-shadow: 0px 0px 0px 0px rgba(255, 245, 3, 0), inset 0px 0px 0px rgba(255, 255, 255, 0); }
+}
+
 button i {
     margin-right: 10px;
 }
